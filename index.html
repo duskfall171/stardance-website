@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LevelUp — Game Reviews</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">LEVEL<span>UP</span></a>
+        <div class="nav-center">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="pages/games.html" class="nav-link">Games</a>
+            <a href="pages/reviews.html" class="nav-link">Reviews</a>
+            <a href="pages/finder.html" class="nav-link">Find My Game</a>
+        </div>
+        <div class="nav-right">
+        <button class="icon-btn" id="navSearchBtn" title="Search">
+                <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/> 
+                </svg>
+            </button>
+            <button class="signin-btn">Sign In</button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-grid-bg"></div>
+        <div class="hero-glow"></div>
+
+        <div class="hero-content">
+            <span class="hero-tag">🎮 The Ultimate Gaming Hub</span>
+            <h1 class="hero-title">Find Your<br><span class="gradient-text">Next Game</span></h1>
+            <p class="hero-sub">Discover, review, and track games across Xbox, PlayStation, and Nintendo — all in one place.</p>
+            
+            <div class="hero-search"></div>
+                <svg class="search-icon" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                </svg>
+                <input type="text" id="heroSearch" placeholder="Search games, genres, platforms..." />
+                <button class="hero-search-btn" id="heroSearchBtn">Search</button>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="stat-num">10K+</span>
+                    <span class="stat-label">Games</span>
